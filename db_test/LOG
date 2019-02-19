@@ -1,0 +1,80 @@
+=============== Aug 17, 2018 (CST) ===============
+10:47:24.513719 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:47:24.574380 db@open opening
+10:47:24.575883 version@stat F·[] S·0B[] Sc·[]
+10:47:24.581900 db@janitor F·2 G·0
+10:47:24.582401 db@open done T·8.0213ms
+10:47:24.704745 db@close closing
+10:47:24.715775 db@close done T·11.0296ms
+=============== Aug 17, 2018 (CST) ===============
+10:47:48.889540 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:47:48.904080 version@stat F·[] S·0B[] Sc·[]
+10:47:48.904080 db@open opening
+10:47:48.904080 journal@recovery F·1
+10:47:48.908091 journal@recovery recovering @1
+10:47:48.954713 memdb@flush created L0@2 N·10000 S·98KiB "0_key_0,v1":"990..999,v10000"
+10:47:48.956718 version@stat F·[1] S·98KiB[98KiB] Sc·[0.25]
+10:47:48.977274 db@janitor F·3 G·0
+10:47:48.977274 db@open done T·73.1939ms
+10:47:49.077079 db@close closing
+10:47:49.088068 db@close done T·10.9886ms
+=============== Aug 17, 2018 (CST) ===============
+10:48:07.869297 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:48:07.891356 version@stat F·[1] S·98KiB[98KiB] Sc·[0.25]
+10:48:07.891356 db@open opening
+10:48:07.891857 journal@recovery F·1
+10:48:07.892858 journal@recovery recovering @3
+10:48:08.073338 memdb@flush created L0@5 N·10000 S·98KiB "0_key_0,v10002":"990..999,v20001"
+10:48:08.075343 version@stat F·[2] S·196KiB[196KiB] Sc·[0.50]
+10:48:08.095397 db@janitor F·4 G·0
+10:48:08.095898 db@open done T·204.5418ms
+10:48:08.187642 table@compaction L0·2 -> L1·0 S·196KiB Q·30002
+10:48:08.191654 db@close closing
+10:48:08.206693 table@build created L1@8 N·10000 S·98KiB "0_key_0,v10002":"990..999,v20001"
+10:48:08.206693 table@build exiting
+10:48:08.206693 table@build revert @8
+10:48:08.222775 db@close done T·31.1211ms
+=============== Aug 17, 2018 (CST) ===============
+10:50:43.728017 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:50:43.741552 version@stat F·[2] S·196KiB[196KiB] Sc·[0.50]
+10:50:43.741552 db@open opening
+10:50:43.742053 journal@recovery F·1
+10:50:43.742554 journal@recovery recovering @6
+10:50:43.789178 memdb@flush created L0@8 N·10000 S·98KiB "0_key_0,v20003":"990..999,v30002"
+10:50:43.790681 version@stat F·[3] S·294KiB[294KiB] Sc·[0.75]
+10:50:43.822265 db@janitor F·5 G·0
+10:50:43.822265 db@open done T·80.7129ms
+10:50:43.977177 db@close closing
+10:50:44.007270 db@close done T·30.0931ms
+=============== Sep 19, 2018 (CST) ===============
+10:45:19.109860 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:45:19.182011 version@stat F·[3] S·294KiB[294KiB] Sc·[0.75]
+10:45:19.182011 db@open opening
+10:45:19.182011 journal@recovery F·1
+10:45:19.183014 journal@recovery recovering @9
+10:45:19.783738 memdb@flush created L0@11 N·10000 S·98KiB "0_key_0,v30004":"990..999,v40003"
+10:45:19.786747 version@stat F·[4] S·392KiB[392KiB] Sc·[1.00]
+10:45:19.830867 db@janitor F·6 G·0
+10:45:19.830867 db@open done T·648.8555ms
+10:45:19.830867 table@compaction L0·4 -> L1·0 S·392KiB Q·40004
+10:45:19.875987 table@build created L1@14 N·10000 S·98KiB "0_key_0,v30004":"990..999,v40003"
+10:45:19.876485 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+10:45:19.881497 table@compaction committed F-3 S-294KiB Ke·0 D·30000 T·50.1333ms
+10:45:19.885007 table@remove removed @11
+10:45:19.888015 table@remove removed @8
+10:45:19.891525 table@remove removed @5
+10:45:19.894533 table@remove removed @2
+10:45:19.991793 db@close closing
+10:45:20.011391 db@close done T·19.5982ms
+=============== Sep 19, 2018 (CST) ===============
+10:48:20.013873 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:48:20.034929 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+10:48:20.034929 db@open opening
+10:48:20.034929 journal@recovery F·1
+10:48:20.035932 journal@recovery recovering @12
+10:48:20.072531 memdb@flush created L0@15 N·10000 S·98KiB "0_key_0,v40005":"990..999,v50004"
+10:48:20.073532 version@stat F·[1 1] S·196KiB[98KiB 98KiB] Sc·[0.25 0.00]
+10:48:20.097014 db@janitor F·4 G·0
+10:48:20.097014 db@open done T·62.0851ms
+10:48:20.100050 db@close closing
+10:48:20.109392 db@close done T·9.3429ms
